@@ -42,3 +42,5 @@ Edit file router.db dengan format Nama/IP:Model:Grup:
 192.168.1.1:ios:core_sw        # Untuk Cisco
 192.168.1.2:routeros:gateway   # Untuk Mikrotik
 192.168.1.3:junos:edge_router  # Untuk Juniper
+192.168.1.4:procurve:hp_switch # Untuk HP
+192.168.1.5:edgeos:ubnt_router # Untuk Unifi/UBNT

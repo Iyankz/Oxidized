@@ -37,10 +37,14 @@ Setelah instalasi selesai, Anda dapat menyesuaikan daftar perangkat di: /home/ox
 Dan mengubah konfigurasi utama di: /home/oxidized/.config/oxidized/config atau di : /root/oxidized/.config/oxidized/config
 
 ## 📡 Contoh Penambahan Perangkat
-Edit file router.db dengan format Nama/IP:Model:Grup:
-```text
-192.168.1.1:ios:core_sw        # Untuk Cisco
-192.168.1.2:routeros:gateway   # Untuk Mikrotik
-192.168.1.3:junos:edge_router  # Untuk Juniper
-192.168.1.4:procurve:hp_switch # Untuk HP
-192.168.1.5:edgeos:ubnt_router # Untuk Unifi/UBNT
+Edit file router.db dengan format Nama/IP:Model:Grup: | Atau bisa di lihat [contoh ini](https://raw.githubusercontent.com/Iyankz/Oxidized/refs/heads/main/templates/router.db)
+
+---
+## Dibuat dengan ❤️ oleh [Iyankz](https://github.com/Iyankz) 
+
+## ⚖️ Lisensi
+Proyek ini dilisensikan di bawah **MIT License** - lihat file [LICENSE](LICENSE) untuk detailnya.
+
+## ⭐ Dukung Proyek Ini
+Jika repositori ini membantu memudahkan pekerjaan Anda atau bermanfaat bagi tim IT Anda, mohon berikan bintang (Star) ⭐ pada repositori ini sebagai bentuk dukungan bagi kami untuk terus mengembangkan script ini.
+

@@ -1,4 +1,7 @@
-# 🚀 Oxidized Auto Installer (Debian Based)
+# 🚀 Oxidized Auto Installer
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![OS: Ubuntu / Debian / Mint](https://img.shields.io/badge/OS-Ubuntu%20%7C%20Debian%20%7C%20Mint-orange.svg)](https://ubuntu.com/)
+[![Platform: Debian-based](https://img.shields.io/badge/Platform-Debian--based-blue.svg)](https://www.debian.org/)
 
 Oxidized adalah tool backup konfigurasi perangkat jaringan yang ringan dan fleksibel. Tool ini merupakan alternatif modern untuk menggantikan RANCID! Project ini menyediakan automasi instalasi penuh khusus untuk sistem berbasis Debian (Ubuntu, Debian, Proxmox).
 

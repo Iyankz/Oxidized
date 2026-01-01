@@ -1,0 +1,9 @@
+---
+
+### 6. File: `.gitignore`
+```text
+# Ignore sensitive data
+templates/router.db
+templates/config.yaml
+*.log
+.DS_Store

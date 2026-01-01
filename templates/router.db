@@ -1,6 +1,38 @@
-# IP/Hostname:Model:Group
-192.168.1.1:ios:core_layer
-192.168.1.2:routeros:gateway_mikrotik
-192.168.1.3:junos:edge_juniper
-192.168.1.4:procurve:hp_switch
-192.168.1.5:edgeos:ubnt_router
+# =================================================================
+# Database Perangkat Network - Oxidized
+# Format: [Nama_atau_IP]:[Model_OS]:[Grup]
+# Author: Iyankz (https://github.com/Iyankz)
+# =================================================================
+
+# --- Vendor: CISCO ---
+# Model 'ios' mendukung IOS, IOS-XE, dan Catalyst lama
+10.10.10.1:ios:core_backbone
+10.10.10.2:ios:distribution_sw
+10.10.10.3:nxos:nexus_datacenter
+
+# --- Vendor: MIKROTIK ---
+# Model 'routeros' digunakan untuk semua seri RouterBoard/CCR
+192.168.1.1:routeros:gateway_utama
+192.168.10.5:routeros:ap_indoor
+
+# --- Vendor: JUNIPER ---
+# Model 'junos' untuk EX-series, MX-series, dan SRX
+172.16.0.1:junos:edge_router
+172.16.0.10:junos:ex_switch
+
+# --- Vendor: HP / ARUBA ---
+# Model 'procurve' untuk HP ProCurve/ArubaOS-Switch
+10.20.20.5:procurve:access_sw_lt1
+10.20.20.6:procurve:access_sw_lt2
+
+# --- Vendor: UBIQUITI ---
+# Model 'edgeos' untuk EdgeRouter
+10.30.30.1:edgeos:customer_cpe
+
+# --- Vendor: HUAWEI ---
+# Model 'vrp' untuk seri Quidway/CloudEngine
+10.40.40.1:vrp:aggregator
+
+# --- Vendor: FORTIGATE ---
+# Model 'fortios' untuk FortiGate Firewall
+10.50.50.1:fortios:firewall_dc

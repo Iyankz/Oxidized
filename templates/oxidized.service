@@ -1,0 +1,12 @@
+[Unit]
+Description=Oxidized - Network Device Configuration Backup
+After=network.target
+
+[Service]
+User=oxidized
+ExecStart=/usr/local/bin/oxidized
+Restart=on-failure
+RuntimeDirectory=oxidized
+
+[Install]
+WantedBy=multi-user.target

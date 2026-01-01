@@ -1,0 +1,29 @@
+---
+username: admin_iyankz
+password: your_password
+model: ios
+interval: 3600
+use_syslog: false
+debug: false
+threads: 50
+timeout: 20
+retries: 3
+prompt: !ruby/regexp /^([\w.@()-]+[#>]|\[\w+@\w+ \S+\]\$)$/
+rest: 0.0.0.0:8888
+
+source:
+  default: csv
+  csv:
+    file: /home/oxidized/.config/oxidized/router.db
+    delimiter: !ruby/regexp /:/
+    map:
+      name: 0
+      model: 1
+      group: 2
+
+output:
+  default: git
+  git:
+    user: Iyankz
+    email: iyankz@users.noreply.github.com
+    repo: /home/oxidized/network_configs.git
